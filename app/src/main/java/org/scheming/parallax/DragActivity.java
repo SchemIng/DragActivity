@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-public class BaseActivity extends AppCompatActivity implements DragLinearLayout.OnFinishListener {
+public class DragActivity extends AppCompatActivity implements DragLinearLayout.OnFinishListener {
 
     @Override
     public void setContentView(int layoutResID) {

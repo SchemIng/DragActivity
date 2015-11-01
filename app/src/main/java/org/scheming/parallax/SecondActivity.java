@@ -2,7 +2,7 @@ package org.scheming.parallax;
 
 import android.os.Bundle;
 
-public class SecondActivity extends BaseActivity {
+public class SecondActivity extends DragActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
