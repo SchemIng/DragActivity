@@ -1,6 +1,8 @@
-package org.scheming.parallax;
+package org.scheming.drag;
 
 import android.os.Bundle;
+
+import org.scheming.parallax.R;
 
 public class SecondActivity extends DragActivity {
 

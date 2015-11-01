@@ -1,10 +1,6 @@
-package org.scheming.parallax;
+package org.scheming.drag;
 
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 public class DragActivity extends AppCompatActivity implements DragLinearLayout.OnFinishListener {
 

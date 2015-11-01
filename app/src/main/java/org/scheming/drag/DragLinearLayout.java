@@ -1,4 +1,4 @@
-package org.scheming.parallax;
+package org.scheming.drag;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -76,7 +76,7 @@ public class DragLinearLayout extends LinearLayout {
         public void onFinish();
     }
 
-    class DragCallBack extends ViewDragHelper.Callback {
+    private class DragCallBack extends ViewDragHelper.Callback {
 
         @Override
         public boolean tryCaptureView(View child, int pointerId) {

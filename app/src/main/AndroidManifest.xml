@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FirstActivity"
+            android:name="org.scheming.drag.FirstActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecondActivity"
+            android:name="org.scheming.drag.SecondActivity"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar.Transparent" />
     </application>

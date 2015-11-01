@@ -1,10 +1,12 @@
-package org.scheming.parallax;
+package org.scheming.drag;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import org.scheming.parallax.R;
 
 public class FirstActivity extends AppCompatActivity {
 
